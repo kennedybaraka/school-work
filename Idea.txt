@@ -1,0 +1,33 @@
+{
+    Get current location of user
+    Get suggested properties that are arround within a range of 5km
+
+
+    Be able to search for a desired property location
+    Be able to view the properties on a map
+    Be able to get directions to the property from their current location
+    Be able to view the property and its details
+}
+
+Dashboard
+
+Admin authentication
+CRUD properties
+
+
+
+Structure
+    Client Side
+    {
+        Home page ( Landing page Suggestion of properties around )
+        Properties page listing (Filtering searching sorting Grid and List view )
+        Map Locater page ( Map with all properties location  )
+        Property page ( Property details contacts get navigation ) 
+    }
+
+     Dashboard Side
+    {
+        Login page
+        Dashboard page (summary)
+        Properties page listing (Filtering searching sorting view add property edit delete)
+    }
