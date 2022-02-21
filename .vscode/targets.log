@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Feb 14 23:35:47 2022
+# Make data base, printed on Tue Feb 15 13:15:31 2022
 
 # Variables
 
@@ -19,9 +19,7 @@ LC_ALL = C
 # environment
 NO_AT_BRIDGE = 1
 # environment
-GJS_DEBUG_OUTPUT = stderr
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d9c2edc8-11b8-43da-be3f-af25ecb8931f.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-2e859fdd-ab38-4bec-877e-09bb5a661fa2.sock
 # environment
 LC_NAME = en_US.UTF-8
 # environment
@@ -29,11 +27,15 @@ LC_NUMERIC = en_US.UTF-8
 # environment
 VSCODE_CWD = /home/baraka
 # environment
+LESS_TERMCAP_me = [0m
+# environment
 LC_ADDRESS = en_US.UTF-8
 # environment
 GDM_LANG = en_US.UTF-8
 # default
 MAKE_COMMAND := make
+# environment
+HISTFILE = /home/baraka/.zsh_history
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -41,7 +43,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/baraka/go/src/github.com/school-project/Next-Bulletproof-Template
+PWD = /home/baraka/Documents/4.1/PROJECT/school-work
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -61,21 +63,31 @@ VSCODE_CODE_CACHE_PATH = /home/baraka/.config/Code - OSS/CachedData/5554b12acf27
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.SHJCH1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.81WEH1
 # default
 .LOADED := 
+# environment
+LESS_TERMCAP_md = [01;32m
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GNOME_TERMINAL_SERVICE = :1.133
 # makefile
 MAKEFLAGS = pqrR
+# environment
+LESS_TERMCAP_so = [01;47;34m
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=dc86688e4798763c907c3958620b78c6
 # makefile
-CURDIR := /home/baraka/go/src/github.com/school-project/Next-Bulletproof-Template
+CURDIR := /home/baraka/Documents/4.1/PROJECT/school-work
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
+# environment
+LESS_TERMCAP_ue = [0m
 # environment
 MFLAGS = -pqrR
 # environment
@@ -84,8 +96,12 @@ SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 .SHELLFLAGS := -c
 # environment
 WAYLAND_DISPLAY = wayland-0
+# environment
+HISTSIZE = 10000
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+# environment
+P9K_SSH = 0
 # environment
 XDG_SESSION_DESKTOP = gnome
 # environment
@@ -97,7 +113,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 9036
+VSCODE_PID = 3267
 # environment
 MOZ_ENABLE_WAYLAND = 1
 # environment
@@ -105,7 +121,7 @@ XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/baraka:@/tmp/.ICE-unix/655,unix/baraka:/tmp/.ICE-unix/655
+SESSION_MANAGER = local/baraka:@/tmp/.ICE-unix/752,unix/baraka:/tmp/.ICE-unix/752
 # automatic
 *F = $(notdir $*)
 # environment
@@ -113,31 +129,43 @@ QT_QPA_PLATFORMTHEME = qt5ct
 # environment
 CHROME_DESKTOP = code-oss.desktop
 # environment
+INSIDE_NAUTILUS_PYTHON = 
+# environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
+# environment
+P9K_TTY = old
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 BREAKPAD_DUMP_LOCATION = /home/baraka/.config/Code - OSS/exthost Crash Reports
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+ANDROID_HOME = /opt/android-sdk
 # makefile
 SHELL = /bin/sh
+# environment
+LESS_TERMCAP_us = [01;36m
 # default
 MAKECMDGOALS := all
 # environment
 XMODIFIERS = @im=ibus
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
-# environment
 SHLVL = 0
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/82736050_a67d_4f06_863d_98847323b0e5
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /home/baraka/.local/bin:/usr/local/bin:/usr/bin:/var/lib/snapd/snap/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+FLUTTER_HOME = /opt/flutter
+# environment
+PATH = /home/baraka/.local/bin:/usr/local/bin:/usr/bin:/var/lib/snapd/snap/bin:/usr/local/sbin:/opt/android-sdk/cmdline-tools/latest/bin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/opt/android-sdk/tools/bin:/opt/flutter/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# environment
+LESS_TERMCAP_se = [0m
 # default
 MAKEFILES := 
 # environment
@@ -149,7 +177,9 @@ MOTD_SHOWN = pam
 # environment
 LC_TIME = en_US.UTF-8
 # environment
-INVOCATION_ID = 559bf097049c47469a2024fc1c9888e8
+LESS_TERMCAP_mb = [01;32m
+# environment
+INVOCATION_ID = 401332f9e056425e82c70334f392654a
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
@@ -162,8 +192,12 @@ LC_TELEPHONE = en_US.UTF-8
 ?F = $(notdir $?)
 # environment
 XDG_CURRENT_DESKTOP = GNOME
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # automatic
 +F = $(notdir $+)
+# environment
+LESS = -R
 # environment
 DESKTOP_SESSION = gnome
 # environment
@@ -172,12 +206,12 @@ ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
 GNUMAKEFLAGS := 
 # environment
 LOGNAME = baraka
-# environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code-oss.desktop
 # makefile
 .DEFAULT_GOAL := push
 # environment
-SYSTEMD_EXEC_PID = 670
+SYSTEMD_EXEC_PID = 1025
+# environment
+SAVEHIST = 10000
 # environment
 EDITOR = /usr/bin/nano
 # environment
@@ -187,11 +221,13 @@ USER = baraka
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 608
+MANAGERPID = 638
+# environment
+DBUS_STARTER_BUS_TYPE = session
 # environment
 LC_MEASUREMENT = en_US.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 9022
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4556
 # environment
 _ = /usr/bin/make
 # environment
@@ -199,7 +235,9 @@ LC_PAPER = en_US.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:22782
+COLORTERM = truecolor
+# environment
+JOURNAL_STREAM = 8:21414
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -212,6 +250,8 @@ QT_IM_MODULE = ibus
 ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-8bed09ef-1.64.0-main.sock
+# environment
+TERM = xterm-256color
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -221,9 +261,15 @@ SUFFIXES :=
 # environment
 QT_AUTO_SCREEN_SCALE_FACTOR = 1
 # environment
+_P9K_TTY = /dev/pts/0
+# environment
 VSCODE_CLI = 1
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 6602
+# environment
+LS_OPTIONS = --color=auto
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
 # environment
@@ -231,9 +277,12 @@ XDG_MENU_PREFIX = gnome-
 # environment
 GDMSESSION = gnome
 # environment
+ 
+PKGFILE_PROMPT_INSTALL_MISSING = 1
+# environment
 LC_IDENTIFICATION = en_US.UTF-8
 # variable set hash-table stats:
-# Load=110/1024=11%, Rehash=0, Collisions=6/140=4%
+# Load=134/1024=13%, Rehash=0, Collisions=24/164=15%
 
 # Pattern-specific Variable Values
 
@@ -241,7 +290,7 @@ LC_IDENTIFICATION = en_US.UTF-8
 
 # Directories
 
-# . (device 2066, inode 3159930): 28 files, no impossibilities.
+# . (device 2066, inode 2753471): 28 files, no impossibilities.
 
 # 28 files, no impossibilities in 1 directories.
 
@@ -281,7 +330,6 @@ all:
 #  File has not been updated.
 
 run:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -302,6 +350,6 @@ run:
 # strcache performance: lookups = 41 / hit rate = 14%
 # hash-table stats:
 # Load=35/8192=0%, Rehash=0, Collisions=0/41=0%
-# Finished Make data base on Mon Feb 14 23:35:47 2022
+# Finished Make data base on Tue Feb 15 13:15:31 2022
 
  
